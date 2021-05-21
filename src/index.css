@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+body, html {
+  width: 100%;
+  height: 100%;
+  background: antiquewhite;
+}
+
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+}
+::-moz-selection {
+	color: #FFFFFF;
+	background: #5656a9;
+}
+::selection {
+	color: #FFFFFF;
+	background: #5656a9;
+}
+::-webkit-input-placeholder {
+	color: #ddbba3;
+	/* opacity: 0.5; */
+}
+:-moz-placeholder {
+	color: #ddbba3;
+	/* opacity: 0.5; */
+}
+::-moz-placeholder {
+	color: #ddbba3;
+	/* opacity: 0.5; */
+}
+:-ms-input-placeholder {
+	color: #ddbba3;
+	/* opacity: 0.5; */
+}
+
+a, a span, button {
+	-webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+		 -o-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+			transition: all .2s ease-in-out;
+}
+
+img { max-width: 100%; height: auto; border:none; }
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+.AlertaJs {
+  text-align: center;
+  width: calc(90% - 40px);
+  max-width: calc(550px - 40px);
+  /* min-width: calc(320px - 40px); */
+  margin: 0 auto;
+  padding: 20px 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 20px 75px rgba(0, 0, 0, 0.23);
+  color: #000000;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+.AlertaJs > button {
+  width: 120px;
+  padding: 10px;
+  border: 1px solid #fff;
+  margin: 10px;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  outline: none;
+  background: #0033a1;
+  border-radius: 5px;
+}
+
+.AlertaJs > button:hover {
+  background: #5656a9;
+}
+
+.AlertaJs h1 {
+  margin: 0 0 10px 0;
+}
+
+.react-confirm-alert-overlay {
+  background: rgb(0 0 0 / 0.7) !important; 
+  animation: react-confirm-alert-fadeIn 0.3s 0.2s forwards !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.custom-ui {
+  text-align: center;
+  width: calc(90% - 80px);
+  max-width: calc(540px - 20px);
+  min-width: calc(320px - 20px);
+  margin: 0 auto;
+  padding: 20px 20px;
+  background: #971D76;
+  box-shadow: 0 20px 75px rgba(0, 0, 0, 0.23);
+  color: #fff;
+}
+
+.custom-ui > button {
+  width: 120px;
+  padding: 10px;
+  border: 1px solid #fff;
+  margin: 10px;
+  cursor: pointer;
+  background: none;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+  background: #971D76;
+}
+
+.custom-ui > button:hover {
+  background: #971D76;
+}
+
+.custom-ui h1 {
+  margin: 0 0 10px 0;
+}
