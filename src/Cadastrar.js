@@ -450,7 +450,7 @@ function Cadastrar(props) {
               />
           </CampoForm>
 
-          <BotaoCadastrar type="submit">Atualizar</BotaoCadastrar>
+          <BotaoCadastrar type="submit">Cadastrar</BotaoCadastrar>
 
         </FormEditar>
 

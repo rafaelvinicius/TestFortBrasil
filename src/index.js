@@ -15,7 +15,7 @@ ReactDOM.render((
           <Route path="/cadastrar" exact component={ Cadastrar } />
           <Route path="/buscar" exact component={ Busca } />
           <Route path="/login" exact component={ Login } />
-          <Route path="/" exact component={ Lista } />
+          <Route path="/" component={ Lista } />
       </Switch>
   </BrowserRouter>
 ), document.getElementById('root'));
